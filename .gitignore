@@ -1,0 +1,37 @@
+# ビルドされたバイナリファイルを無視
+/tmp/main
+
+# 一時ディレクトリを無視
+/tmp/
+
+# テストデータディレクトリを無視
+/testdata/
+
+# .air.tomlの設定に基づいて無視するディレクトリ
+/assets/
+/vendor/
+/docs/
+
+# Goのビルドキャッシュを無視
+*.test
+*.exe
+*.out
+*.o
+
+# Goのモジュールキャッシュを無視
+/go/pkg/mod/
+
+# エディタやIDEの設定ファイルを無視
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ログファイルを無視
+*.log
+
+# その他の一時ファイルを無視
+*.tmp
+*.swp
+*.DS_Store
+*.env
