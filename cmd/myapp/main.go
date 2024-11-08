@@ -2,7 +2,6 @@ package main
 
 import "myapp/pkg/examples"
 
-// int-example.goを実行
 func main() {
 	// examples.IntExample()
 	// examples.FloatExample()
@@ -10,6 +9,7 @@ func main() {
 	// examples.BooleanExample()
 	// examples.StringExample()
 	// examples.ByteExample()
-	// examples.ByteExample()
-	examples.ArrayExample()
+	// examples.ArrayExample()
+	// examples.InterfaceExample()
+	examples.CastExample()
 }
